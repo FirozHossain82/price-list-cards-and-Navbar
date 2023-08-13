@@ -3,13 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar.jsx'
+import PriceList from './components/PriceLIsts/PriceList.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className='bg-cyan-100'>
       <Navbar></Navbar>
+      <PriceList></PriceList>
     </div>
   )
 }

@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Membership",
+      "features": ["Gym Access", "Limited Hours", "No Classes"],
+      "prices": 80
+    },
+    {
+      "id": 2,
+      "name": "Standard Membership",
+      "features": ["Full Access", "Flexible Hours", "Full Access", "Flexible Hours", "Full Access", "Flexible Hours",  "Some Classes"],
+      "prices": 120
+    },
+    {
+      "id": 3,
+      "name": "Premium Membership",
+      "features": ["Full Access", "Unlimited Classes", "Personal Trainer"],
+      "prices": 160
+    }
+  ]
+  

@@ -11,7 +11,7 @@ const Navbar = () => {
     { id: 5, name: "Contact", path: "/contact" },
   ];
   return (
-    <nav className="bg-purple-400  ">
+    <nav className="bg-purple-400  px-4 ">
       <div onClick={() => setOpen(!open)} className="md:hidden" mb-4>
         <span>
           {open === true ? (
