@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar.jsx'
 import PriceList from './components/PriceLIsts/PriceList.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'
+import BarCharts from './components/Dashboard/BarCharts.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <PriceList></PriceList>
       <Dashboard></Dashboard>
+      <BarCharts></BarCharts>
     </div>
   )
 }
